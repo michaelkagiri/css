@@ -1,0 +1,69 @@
+/* styles.css */
+
+body {
+    background-image:url(Screenshot\ 2024-10-03\ at\ 01-24-07\ Working\ on\ a\ Timeline\ -\ Photos\ by\ Canva.png);
+    background-size: cover;
+    font-family: 'Roboto', sans-serif; /* Use the Roboto font */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Use flexbox to align items */
+}
+
+/* Top Navigation Bar Styles */
+.navbar {
+    width: 100%;
+    font-weight: bolder;
+    position:fixed; /* Fixed at the top of the page */
+    top: 0; /* Stick to the top */
+    left: 0;
+    z-index: 1000; /* Make sure it stays on top of other content */
+    padding: 10px 0; /* Padding for the navbar */
+}
+
+.navbar ul {
+    list-style-type: none; /* Remove bullets */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Horizontal layout */
+    justify-content:end; /* Center the navbar links */
+}
+
+.navbar ul li {
+    margin: 0 15px; /* Space between each link */
+}
+
+.navbar ul li a {
+    text-decoration: none; /* Remove underline */
+    color: white; /* White link text */
+    font-weight:bolder; /* Default font weight */
+    font-size: 16px; /* Font size */
+    padding: 10px 15px; /* Padding around the link */
+}
+
+.navbar ul li a:hover {
+    background-color: #575757; /* Darker background on hover */
+    border-radius: 4px; /* Rounded corners on hover */
+}
+
+.navbar ul li a.active {
+    font-weight: bold; /* Bold styling for the active (Home) link */
+    border-bottom: 2px solid white; /* Optional: underline the active link */
+}
+
+
+.navbar a {
+    display: block; /* Display links as block elements */
+    color: white; /* Link color */
+    text-decoration: none; /* Remove underline from links */
+    padding: 15px; /* Padding around links */
+}
+
+.navbar a:hover {
+    background-color: #575757; /* Change background on hover */
+}
+
+.main-content {
+    margin-left: 1120px; /* Space for the navbar */
+    padding: 20px; /* Padding for main content */
+    color: green;
+}
